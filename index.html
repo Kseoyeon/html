@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>오버워치</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="lib.js">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+    </div>
+      <div id="clock" onload="clock()">
+      </div>
+    <div id="logo">
+      <a href="index.html">
+        <img id="logo_image" src="image/overwatch.png">
+      </a>
+    </div>
+    <nav id="topMenu">
+      <ul>
+        <li><a href="open_division.html">오픈 디비전</a></li>
+        <li><a href="contenders_trial.html">컨텐더스 트라이얼</a></li>
+        <li><a href="contenders.html">컨텐더스</a></li>
+        <li><a href="league.html">오버워치 리그</a></li>
+        <li><a href="worldcup.html">오버워치 월드컵</a></li>
+      </ul>
+    </nav>
+    <div id="back">
+      <div id="overwatch">
+        <p align = "middle">
+        <img id = "main_img" src="image/overwatch_main.png">
+        </p>
+        <br><br>
+        <p align = "middle">
+          <iframe id="trailer" src="https://www.youtube.com/embed/Ko6MhgvbVgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+        <br><br>
+        <p class="overwatch_font">
+          <font id="welcome">오버워치에 오신 것을 환영합니다</font><br><br><br>
+          <font id="welcome2">오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.<br>
+          미래의 전장에서 팀을 구성해, 짜릿한 6대 6 전투를 펼치십시오.<br><br>
+          2016년에 발매된 블리자드 엔터테인먼트의 팀 기반 멀티플레이 하이퍼 FPS 게임입니다.
+          </font><br><br><br><br><br><br><br>
+          <font class="OW_Font">다양한 영웅</font><br><br><br><br>
+          <img align = "middle" id="hero" src="image/hero.png" title="시그마, 둠피스트, 애쉬, 로드호그, 파라, 디바, 오리사, 라인하르트, 메르시, 레킹볼, 바스티온, 정크랫, 루시우, 트레이서, 솔저:76, 젠야타, 자리야, 겐지, 모이라, 한조, 위도우메이커, 시메트라, 바티스트, 리퍼, 윈스턴, 메이, 브리기테, 맥크리, 솜브라, 아나, 토르비욘"><br><br><br><br><br><br><br>
+          <font class="OW_Font">다양한 역할</font><br><br>
+          <table class="table_1">
+            <tbody id="role1">
+              <tr>
+                <td class="td_1"><img align = "middle" class="posi" src="image/tank.png"  onclick="rotate(this)"><br><br><br></td>
+                <td class="td_1"><img align = "middle" class="posi" src="image/dps.png" onclick="rotate(this)"><br><br><br></td>
+                <td class="td_1"><img align = "middle" class="posi" src="image/heal.png" onclick="rotate(this)"><br><br><br></td>
+              </tr>
+              <tr>
+                <td class="subtitle1">돌격</td>
+                <td class="subtitle1">공격</td>
+                <td class="subtitle1">지원</td>
+              </tr>
+              <tr style="font-size: 14px;">
+                <td>돌격 영웅은 피해를 흡수하고 뭉쳐 있는 적들이나 좁은 통로의 요새화된 지점을 돌파하는 데 최적화되어 있습니다. 당신이 돌격 영웅이라면 최전선에서 팀의 공격을 주도하십시오.</td>
+                <td>공격 영웅은 사거리가 넓은 무기와 능력, 플레이 스타일로 적을 찾아내고 싸워서 처치합니다. 강력하지만, 생명력이 낮으므로 지원해 줄 영웅이 있어야 생존할 수 있습니다.</td>
+                <td>지원 영웅은 아군을 보호하거나 강화하고 치유하며, 보호막을 씌우고, 공격력을 높이고, 적의 능력을 무력화하는 등, 전투에 꼭 필요한 보조 능력을 부여합니다. 지원 영웅은 팀 생존에 중추적인 역할을 맡습니다.</td>
+              </tr>
+            </tbody>
+            <tbody id="role2">
+              <tr style="width: 100%;">
+                <td><img align = "middle" class="posi" src="image/tank.png"  onclick="rotate(this)"><br></td>
+              </tr>
+              <tr style="width: 100%;">
+                <td class="subtitle1">돌격</td>
+              </tr>
+              <tr id="role" style="width: 100%;">
+                <td>돌격 영웅은 피해를 흡수하고 뭉쳐 있는 적들이나 좁은 통로의 요새화된 지점을 돌파하는 데 최적화되어 있습니다. 당신이 돌격 영웅이라면 최전선에서 팀의 공격을 주도하십시오.</td>
+              </tr>
+              <tr style="width: 100%;">
+                <td><img align = "middle" class="posi" src="image/dps.png" onclick="rotate(this)"><br></td>
+              </tr>
+              <tr style="width: 100%;">
+                <td class="subtitle1">공격</td>
+              </tr>
+              <tr id="role" style="width: 100%;">
+                <td>공격 영웅은 사거리가 넓은 무기와 능력, 플레이 스타일로 적을 찾아내고 싸워서 처치합니다. 강력하지만, 생명력이 낮으므로 지원해 줄 영웅이 있어야 생존할 수 있습니다.</td>
+              </tr>
+              <tr style="width: 100%;">
+                <td class="td_1"><img align = "middle" class="posi" src="image/heal.png" onclick="rotate(this)"><br></td>
+              </tr>
+              <tr style="width: 100%;">
+                <td class="subtitle1">지원</td>
+              </tr>
+              <tr id="role" style="width: 100%;">
+                <td>지원 영웅은 아군을 보호하거나 강화하고 치유하며, 보호막을 씌우고, 공격력을 높이고, 적의 능력을 무력화하는 등, 전투에 꼭 필요한 보조 능력을 부여합니다. 지원 영웅은 팀 생존에 중추적인 역할을 맡습니다.</td>
+              </tr>
+            </tbody>
+          </table><br><br>
+          <div id="schedule">
+              <span class="subtitle1" title="클릭하세요" onclick="add()">일 정</span>&nbsp;&nbsp;&nbsp;
+              <button type="button" name="제거" onclick="remove()">삭제</button>
+          </div>
+          <span class="subtitle1">----------------------</span><br>
+          <ol id="plan">
+            <li>삭제하고 입력하세요</li>
+          </ol>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

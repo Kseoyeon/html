@@ -1,0 +1,2115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>오버워치 리그</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="lib.js">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+    </div>
+    <div id="clock" onload="clock()">
+    </div>
+    <div id="logo">
+      <a href="index.html">
+        <img id="logo_image" src="image/overwatch.png">
+      </a>
+    </div>
+    <nav id="topMenu">
+      <ul>
+        <li><a href="open_division.html">오픈 디비전</a></li>
+        <li><a href="contenders_trial.html">컨텐더스 트라이얼</a></li>
+        <li><a href="contenders.html">컨텐더스</a></li>
+        <li style="background-color: #8C8C8C"><a href="league.html">오버워치 리그</a></li>
+        <li><a href="worldcup.html">오버워치 월드컵</a></li>
+      </ul>
+    </nav>
+    <div id="back">
+      <div id="contents">
+        <div>
+          <p class="title">오버워치 리그 <span class="subtitle1">(Overwatch League)</span></p><br>
+          <p><img id="open_img" src="image/league.png"><br></p>
+          <p>
+            오버워치 리그는 20개의 연고 도시 기반의 팀으로 이루어진 국제 e스포츠 리그로, 지구상 최고의 오버워치 선수들이 참가합니다.<br>
+            280개의 경기로 구성되는 정규 시즌은 2월에 시작되고, 가을의 포스트시즌 플레이오프와 함께 막을 내립니다.<br>
+            <br>미화 5백만 달러에 달하는 상금 총액과 손에 땀을 쥐게 하는 스토리, 선수들의 보장된 연봉, 최첨단 수준의 완성도를<br>
+            자랑하는 오버워치 리그는 세계를 대표하는 e스포츠 리그입니다. 프로 스포츠의 지역 연고, 저지 개념의 스킨 등과<br>
+            글로벌리즘을 갖고 있습니다.<br><br><br>
+          </p>
+          <p>
+            <span class="subtitle1">팀 소개</span><br><br><br>
+            <span class="subtitle2">대서양팀 (Atlantic)</span><br><br>
+            <table class="table_4">
+              <tbody>
+                <tr>
+                  <td> <img class="team_img" src="image/team/excelsior.png" onclick="excelsior()"> </td>
+                  <td> <img class="team_img" src="image/team/spitfire.png" onclick="spitfire()"> </td>
+                  <td> <img class="team_img" src="image/team/uprising.png" onclick="uprising()"> </td>
+                  <td> <img class="team_img" src="image/team/reign.png" onclick="reign()"> </td>
+                  <td> <img class="team_img" src="image/team/justice.png" onclick="justice()"> </td>
+                </tr>
+                <tr>
+                  <td> <img class="team_img" src="image/team/defiant.png" onclick="defiant()"> </td>
+                  <td> <img class="team_img" src="image/team/eternal.png" onclick="eternal()"> </td>
+                  <td> <img class="team_img" src="image/team/mayhem.png" onclick="mayhem()"> </td>
+                  <td> <img class="team_img" src="image/team/fusion.png" onclick="fusion()"> </td>
+                  <td> <img class="team_img" src="image/team/outlaws.png" onclick="outlaws()"> </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <div id="excelsior" style="display:none;">
+              <table class="table_5" style="border:2px solid #171c38;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">뉴욕 엑셀시어</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #0f57ea; text-align: center;"><div>
+                      <span style="color:#fff">New York Excelsior</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 10월 30일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 뉴욕 주 뉴욕</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>북부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>해머스타인 볼룸</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><span style="color:#ff1c26">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #171c38; color:#ff1c26; text-align: left;"><div><span>NYE</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #0f57ea; text-align: center;"><div>
+                      <span style="color:#fff">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center; width: 30%;"><div><img src="image/role_dps.png"><br><span style="color:#ff1c26">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(1)"><div id="1">
+                      <script>
+                        var key = localStorage.getItem("1");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(2)"><div id="2">
+                      <script>
+                        var key = localStorage.getItem("2");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#ff1c26">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(3)"><div id="3">
+                      <script>
+                        var key = localStorage.getItem("3");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(4)"><div id="4">
+                      <script>
+                        var key = localStorage.getItem("4");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #171c38; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#ff1c26">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(5)"><div id="5">
+                      <script>
+                        var key = localStorage.getItem("5");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(6)"><div id="6">
+                      <script>
+                        var key = localStorage.getItem("6");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="spitfire" style="display:none;">
+              <table class="table_5" style="border:2px solid #59cbe8;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">런던 스핏파이어</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #1c2b39; text-align: center;"><div>
+                      <span style="color:#ff8200">London Spitfire</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 11월 4일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>영국 잉글랜드 런던</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>북부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>웸블리 SSE 아레나</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><span style="color:#1c2b39">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #59cbe8; color:#1c2b39; text-align: left;"><div><span>LDN</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #1c2b39; text-align: center;"><div>
+                      <span style="color:#ff8200">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#1c2b39">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(7)"><div id="7">
+                      <script>
+                        var key = localStorage.getItem("7");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(8)"><div id="8">
+                      <script>
+                        var key = localStorage.getItem("8");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#1c2b39">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(9)"><div id="9">
+                      <script>
+                        var key = localStorage.getItem("9");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(10)"><div id="10">
+                      <script>
+                        var key = localStorage.getItem("10");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #59cbe8; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#1c2b39">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(11)"><div id="11">
+                      <script>
+                        var key = localStorage.getItem("11");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(12)"><div id="12">
+                      <script>
+                        var key = localStorage.getItem("12");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="uprising" style="display:none;">
+              <table class="table_5" style="border:2px solid #174b97;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">보스턴 업라이징</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #efe400; text-align: center;"><div>
+                      <span style="color:#000">Boston Uprising</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 10월 26일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 메사추세츠 보스턴</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>북부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">아카데미 팀</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>업라이징 아카데미</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><span style="color:#efe400">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #174b97; color:#efe400; text-align: left;"><div><span>BOS</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #efe400; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#efe400">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(13)"><div id="13">
+                      <script>
+                        var key = localStorage.getItem("13");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(14)"><div id="14">
+                      <script>
+                        var key = localStorage.getItem("14");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#efe400">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(15)"><div id="15">
+                      <script>
+                        var key = localStorage.getItem("15");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(16)"><div id="16">
+                      <script>
+                        var key = localStorage.getItem("16");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #174b97; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#efe400">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(17)"><div id="17">
+                      <script>
+                        var key = localStorage.getItem("17");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(18)"><div id="18">
+                      <script>
+                        var key = localStorage.getItem("18");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="reign" style="display:none;">
+              <table class="table_5" style="border:2px solid #c4c4c4;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">애틀랜타 레인</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #910f1b; text-align: center;"><div>
+                      <span style="color:#c4c4c4">Atlanta Reign</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 8월 2일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 조지아 주 애틀랜타</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>남부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>코카콜라 록시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><span style="color:#910f1b">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #c4c4c4; color:#910f1b; text-align: left;"><div><span>ATL</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #910f1b; text-align: center;"><div>
+                      <span style="color:#c4c4c4">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#910f1b">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(19)"><div id="19">
+                      <script>
+                        var key = localStorage.getItem("19");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(20)"><div id="20">
+                      <script>
+                        var key = localStorage.getItem("20");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#910f1b">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(21)"><div id="21">
+                      <script>
+                        var key = localStorage.getItem("21");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(22)"><div id="22">
+                      <script>
+                        var key = localStorage.getItem("22");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #c4c4c4; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#910f1b">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(23)"><div id="23">
+                      <script>
+                        var key = localStorage.getItem("23");
+                        if(key == null) {
+                          document.write(" ");
+                        }
+                        else {
+                          document.write(key);
+                        }
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(24)"><div id="24">
+                      <script>
+                        var key = localStorage.getItem("24");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="justice" style="display:none;">
+              <table class="table_5" style="border:2px solid #990034;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">워싱턴 저스티스</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #003669; text-align: center;"><div>
+                      <span style="color:#fff">Washington Justice</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 9월 6일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 워싱턴 D.C.</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>남부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="2" style="text-align: left;"><div>디 앤썸<br>엔터테인먼트 스포츠 아레나</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><span style="color:#FFF">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #990034; color:#FFF; text-align: left;"><div><span>WAS</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #003669; text-align: center;"><div>
+                      <span style="color:#fff">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#FFF">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(25)"><div id="25">
+                      <script>
+                        var key = localStorage.getItem("25");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(26)"><div id="26">
+                      <script>
+                        var key = localStorage.getItem("26");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#FFF">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(27)"><div id="27">
+                      <script>
+                        var key = localStorage.getItem("27");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(28)"><div id="28">
+                      <script>
+                        var key = localStorage.getItem("28");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #990034; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#FFF">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(29)"><div id="29">
+                      <script>
+                        var key = localStorage.getItem("29");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(30)"><div id="30">
+                      <script>
+                        var key = localStorage.getItem("30");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="defiant" style="display:none;">
+              <table class="table_5" style="border:2px solid #000;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div><span style="color:#c10022">토론토 디파이언트</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #c10022; text-align: center;"><div>
+                      <span style="color:#000">Toronto Defiant</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 9월 7일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>캐나다 온타리오 토론토</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>북부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>로이 톰슨 홀</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#c10022">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #000; color:#c10022; text-align: left;"><div><span>TOR</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #c10022; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#c10022">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(31)"><div id="31">
+                      <script>
+                        var key = localStorage.getItem("31");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(32)"><div id="32">
+                      <script>
+                        var key = localStorage.getItem("32");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#c10022">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(33)"><div id="33">
+                      <script>
+                        var key = localStorage.getItem("33");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(34)"><div id="34">
+                      <script>
+                        var key = localStorage.getItem("34");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#c10022">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(35)"><div id="35">
+                      <script>
+                        var key = localStorage.getItem("35");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(36)"><div id="36">
+                      <script>
+                        var key = localStorage.getItem("36");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="eternal" style="display:none;">
+              <table class="table_5" style="border:2px solid #303D56;">
+                <tbody>
+                  <tr>
+                    <td colspan="4" style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">파리 이터널</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="background-color: #8d042d; text-align: center;"><div>
+                      <span style="color:#ffaa1c">Paris Eternal</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">창단</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>2018년 9월 6일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">연고지</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>프랑스 일드프랑스 레지옹 파리 주 파리</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">컨퍼런스</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">디비전</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>북부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">홈 경기장</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>제니스 파리 라빌레트</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><span style="color:#ffaa1c">약칭</span></div></td>
+                    <td colspan="3" style="background-color: #303D56; color:#ffaa1c; text-align: left;"><div><span>PAR</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #8d042d; text-align: center;"><div>
+                      <span style="color:#ffaa1c">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#ffaa1c">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(37)"><div id="37">
+                      <script>
+                        var key = localStorage.getItem("37");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(38)"><div id="38">
+                      <script>
+                        var key = localStorage.getItem("38");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#ffaa1c">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(39)"><div id="39">
+                      <script>
+                        var key = localStorage.getItem("39");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(40)"><div id="40">
+                      <script>
+                        var key = localStorage.getItem("40");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #303D56; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#ffaa1c">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(41)"><div id="41">
+                      <script>
+                        var key = localStorage.getItem("41");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(42)"><div id="42">
+                      <script>
+                        var key = localStorage.getItem("42");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="mayhem" style="display:none;">
+              <table class="table_5" style="border:2px solid #fedc01;">
+                <tbody>
+                  <tr>
+                    <td colspan="4" style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">플로리다 메이헴</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#af282f">Florida Mayhem</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">창단</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>2017년 11월 2일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">연고지</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>미국 플로리다 마이애미, 올랜도</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">컨퍼런스</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">디비전</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>남부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="3" style="text-align: left;"><div>마이애미 대학 왓스코 센터<br>폴 세일 라이브</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><span style="color:#af282f">약칭</span></div></td>
+                    <td colspan="3" style="background-color: #fedc01; color:#af282f; text-align: left;"><div><span>FLA</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#af282f">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#af282f">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(43)"><div id="43">
+                      <script>
+                        var key = localStorage.getItem("43");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(44)"><div id="44">
+                      <script>
+                        var key = localStorage.getItem("44");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#af282f">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(45)"><div id="45">
+                      <script>
+                        var key = localStorage.getItem("45");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(46)"><div id="46">
+                      <script>
+                        var key = localStorage.getItem("46");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fedc01; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#af282f">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(47)"><div id="47">
+                      <script>
+                        var key = localStorage.getItem("47");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(48)"><div id="48">
+                      <script>
+                        var key = localStorage.getItem("48");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="fusion" style="display:none;">
+              <table class="table_5" style="border:2px solid #000;">
+                <tbody>
+                  <tr>
+                    <td colspan="4" style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">필라델피아 퓨전</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="background-color: #f89c3f; text-align: center;"><div>
+                      <span style="color:#000">Philadelphia Fusion</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">창단</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>2017년 11월 3일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">연고지</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>미국 펜실베이니아 필라델피아</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">컨퍼런스</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">디비전</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>남부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3" style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">홈 경기장</span></div></td>
+                    <td rowspan="3" colspan="3" style="text-align: left;"><div>메트로폴리탄 오페라 하우스<br>보드웍 홀<br>퓨전 아레나</div></td>
+                  </tr>
+                  <tr>
+                  </tr>
+                  <tr>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#f89c3f">약칭</span></div></td>
+                    <td colspan="3" style="background-color: #000; color:#f89c3f; text-align: left;"><div><span>PHI</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #f89c3f; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#f89c3f">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(49)"><div id="49">
+                      <script>
+                        var key = localStorage.getItem("49");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(50)"><div id="50">
+                      <script>
+                        var key = localStorage.getItem("50");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#f89c3f">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(51)"><div id="51">
+                      <script>
+                        var key = localStorage.getItem("51");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(52)"><div id="52">
+                      <script>
+                        var key = localStorage.getItem("52");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#f89c3f">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(53)"><div id="53">
+                      <script>
+                        var key = localStorage.getItem("53");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(54)"><div id="54">
+                      <script>
+                        var key = localStorage.getItem("54");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="outlaws" style="display:none;">
+              <table class="table_5" style="border:2px solid #97d700;">
+                <tbody>
+                  <tr>
+                    <td colspan="4" style="background-color: #97d700; text-align: center;"><div><span style="color:#000">휴스턴 아웃로즈</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#97d700">Houston Outlaws</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">창단</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>2017년 10월 31일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">연고지</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>미국 텍사스 휴스턴</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">컨퍼런스</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>대서양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">디비전</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>남부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">홈 경기장</span></div></td>
+                    <td colspan="3" style="text-align: left;"><div>리벤션 뮤직 센터</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><span style="color:#000">약칭</span></div></td>
+                    <td colspan="3" style="background-color: #97d700; color:#000; text-align: left;"><div><span>HOU</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#97d700">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#000">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(55)"><div id="55">
+                      <script>
+                        var key = localStorage.getItem("55");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(56)"><div id="56">
+                      <script>
+                        var key = localStorage.getItem("56");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#000">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(57)"><div id="57">
+                      <script>
+                        var key = localStorage.getItem("57");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(58)"><div id="58">
+                      <script>
+                        var key = localStorage.getItem("58");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #97d700; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#000">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(59)"><div id="59">
+                      <script>
+                        var key = localStorage.getItem("59");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(60)"><div id="60">
+                      <script>
+                        var key = localStorage.getItem("60");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <span class="subtitle2">태평양팀 (Pacific)</span><br><br>
+            <table class="table_4">
+              <tbody>
+                <tr>
+                  <td> <img class="team_img" src="image/team/gladiators.png" onclick="gladiators()"> </td>
+                  <td> <img class="team_img" src="image/team/valiant.png" onclick="valiant()"> </td>
+                  <td> <img class="team_img" src="image/team/charge.png" onclick="charge()"> </td>
+                  <td> <img class="team_img" src="image/team/fuel.png" onclick="fuel()"> </td>
+                  <td> <img class="team_img" src="image/team/titans.png" onclick="titans()"> </td>
+                </tr>
+                <tr>
+                  <td> <img class="team_img" src="image/team/dragons.png" onclick="dragons()"> </td>
+                  <td> <img class="team_img" src="image/team/shock.png" onclick="shock()"> </td>
+                  <td> <img class="team_img" src="image/team/dynasty.png" onclick="dynasty()"> </td>
+                  <td> <img class="team_img" src="image/team/hunters.png" onclick="hunters()"> </td>
+                  <td> <img class="team_img" src="image/team/spark.png" onclick="spark()"> </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <div id="gladiators" style="display:none;">
+              <table class="table_5" style="border:2px solid #171c38;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">로스앤젤레스 글래디에이터즈</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#fff">Los Angeles Gladiators</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 11월 2일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 캘리포니아 로스앤젤레스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>서부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>더 노보 바이 마이크로소프트</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><span style="color:#fff">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #3c1053; color:#fff; text-align: left;"><div><span>GLA</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div>
+                      <span style="color:#fff">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#fff">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(79)"><div id="79">
+                      <script>
+                        var key = localStorage.getItem("79");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(80)"><div id="80">
+                      <script>
+                        var key = localStorage.getItem("80");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#fff">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(81)"><div id="81">
+                      <script>
+                        var key = localStorage.getItem("81");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(82)"><div id="82">
+                      <script>
+                        var key = localStorage.getItem("82");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #3c1053; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#fff">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(83)"><div id="83">
+                      <script>
+                        var key = localStorage.getItem("83");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(84)"><div id="84">
+                      <script>
+                        var key = localStorage.getItem("84");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="valiant" style="display:none;">
+              <table class="table_5" style="border:2px solid #4a7729;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">로스앤젤레스 발리언트</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #d9c756; text-align: center;"><div>
+                      <span style="color:#000">Los Angeles Valiant</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 10월 5일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 캘리포니아 로스앤젤레스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>서부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="2" style="text-align: left;"><div>더 노보 바이 마이크로소프트<br>마이크로소프트 시어터</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><span style="color:#d9c756">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #4a7729; color:#d9c756; text-align: left;"><div><span>VAL</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #d9c756; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#d9c756">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(61)"><div id="61">
+                      <script>
+                        var key = localStorage.getItem("61");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(62)"><div id="62">
+                      <script>
+                        var key = localStorage.getItem("62");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#d9c756">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(63)"><div id="63">
+                      <script>
+                        var key = localStorage.getItem("63");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(64)"><div id="64">
+                      <script>
+                        var key = localStorage.getItem("64");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #4a7729; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#d9c756">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(65)"><div id="65">
+                      <script>
+                        var key = localStorage.getItem("65");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(66)"><div id="66">
+                      <script>
+                        var key = localStorage.getItem("66");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="charge" style="display:none;">
+              <table class="table_5" style="border:2px solid #122c42;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">광저우 차지</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #67a2b2; text-align: center;"><div>
+                      <span style="color:#122c42">Guangzhou Charge (广州冲锋队)</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 8월 2일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>중국 광둥성 광저우시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>동부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="2" style="text-align: left;"><div>톈허 스타디움<br>포산 국제체육문화예술센터</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><span style="color:#67a2b2">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #122c42; color:#67a2b2; text-align: left;"><div><span>GZC</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #67a2b2; text-align: center;"><div>
+                      <span style="color:#122c42">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#67a2b2">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(67)"><div id="67">
+                      <script>
+                        var key = localStorage.getItem("67");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(68)"><div id="68">
+                      <script>
+                        var key = localStorage.getItem("68");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#67a2b2">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(69)"><div id="69">
+                      <script>
+                        var key = localStorage.getItem("69");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(70)"><div id="70">
+                      <script>
+                        var key = localStorage.getItem("70");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #122c42; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#67a2b2">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(71)"><div id="71">
+                      <script>
+                        var key = localStorage.getItem("71");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(72)"><div id="72">
+                      <script>
+                        var key = localStorage.getItem("72");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="fuel" style="display:none;">
+              <table class="table_5" style="border:2px solid #032340;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">댈러스 퓨얼</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #0072ce; text-align: center;"><div>
+                      <span style="color:#032340">Dallas Fuel</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 10월 5일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 텍사스 댈러스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>서부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3" style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">홈 경기장</span></div></td>
+                    <td rowspan="3" colspan="2" style="text-align: left;"><div>앨런 이벤트 센터<br>도요타 뮤직 팩토리<br>e스포츠 스타디움 알링턴</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><span style="color:#0072ce">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #032340; color:#0072ce; text-align: left;"><div><span>DAL</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #0072ce; text-align: center;"><div>
+                      <span style="color:#032340">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#0072ce">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(73)"><div id="73">
+                      <script>
+                        var key = localStorage.getItem("73");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(74)"><div id="74">
+                      <script>
+                        var key = localStorage.getItem("74");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#0072ce">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(75)"><div id="75">
+                      <script>
+                        var key = localStorage.getItem("75");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(76)"><div id="76">
+                      <script>
+                        var key = localStorage.getItem("76");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #032340; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#0072ce">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(77)"><div id="77">
+                      <script>
+                        var key = localStorage.getItem("77");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(78)"><div id="78">
+                      <script>
+                        var key = localStorage.getItem("78");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="titans" style="display:none;">
+              <table class="table_5" style="border:2px solid #09226b;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">밴쿠버 타이탄즈</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #2fb228; text-align: center;"><div>
+                      <span style="color:#09226b">Vancouver Titans</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 9월 6일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>캐나다 브리티시컬럼비아 밴쿠버</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>서부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>로저스 아레나</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><span style="color:#2fb228">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #09226b; color:#2fb228; text-align: left;"><div><span>VAN</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #2fb228; text-align: center;"><div>
+                      <span style="color:#09226b">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#2fb228">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(85)"><div id="85">
+                      <script>
+                        var key = localStorage.getItem("85");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(86)"><div id="86">
+                      <script>
+                        var key = localStorage.getItem("86");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#2fb228">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(87)"><div id="87">
+                      <script>
+                        var key = localStorage.getItem("87");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(88)"><div id="88">
+                      <script>
+                        var key = localStorage.getItem("88");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #09226b; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#2fb228">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(89)"><div id="89">
+                      <script>
+                        var key = localStorage.getItem("89");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(90)"><div id="90">
+                      <script>
+                        var key = localStorage.getItem("90");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="dragons" style="display:none;">
+              <table class="table_5" style="border:2px solid #d22630;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">상하이 드래곤</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #fce300; text-align: center;"><div>
+                      <span style="color:#000">Shanghai Dragons (上海龙之队)</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 9월 28일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>중국 상하이시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>동부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>신예팡 스튜디오</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><span style="color:#fce300">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #d22630; color:#fce300; text-align: left;"><div><span>SHD</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #fce300; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#fce300">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(91)"><div id="91">
+                      <script>
+                        var key = localStorage.getItem("91");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(92)"><div id="92">
+                      <script>
+                        var key = localStorage.getItem("92");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#fce300">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(93)"><div id="93">
+                      <script>
+                        var key = localStorage.getItem("93");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(94)"><div id="94">
+                      <script>
+                        var key = localStorage.getItem("94");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #d22630; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#fce300">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(95)"><div id="95">
+                      <script>
+                        var key = localStorage.getItem("95");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(96)"><div id="96">
+                      <script>
+                        var key = localStorage.getItem("96");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="shock" style="display:none;">
+              <table class="table_5" style="border:2px solid #75787b;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">샌프란시스코 쇼크</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #fc4c02; text-align: center;"><div>
+                      <span style="color:#cab64b">San Francisco Shock</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 9월 28일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>미국 캘리포니아 샌프란시스코</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>서부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="2" style="text-align: left;"><div>히스토릭 카우 팰리스<br>새너제이 시빅 센터</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><span style="color:#fc4c02">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #75787b; color:#fc4c02; text-align: left;"><div><span>SFS</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #fc4c02; text-align: center;"><div>
+                      <span style="color:#cab64b">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#fc4c02">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(97)"><div id="97">
+                      <script>
+                        var key = localStorage.getItem("97");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(98)"><div id="98">
+                      <script>
+                        var key = localStorage.getItem("98");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#fc4c02">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(99)"><div id="99">
+                      <script>
+                        var key = localStorage.getItem("99");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(100)"><div id="100">
+                      <script>
+                        var key = localStorage.getItem("100");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #75787b; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#fc4c02">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(101)"><div id="101">
+                      <script>
+                        var key = localStorage.getItem("101");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(102)"><div id="102">
+                      <script>
+                        var key = localStorage.getItem("102");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="dynasty" style="display:none;">
+              <table class="table_5" style="border:2px solid #000;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">서울 다이너스티</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #aa8a00; text-align: center;"><div>
+                      <span style="color:#000">Seoul Dynasty</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 8월 22일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>대한민국 서울특별시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>동부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">아카데미 팀</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>Gen.G Esports</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><span style="color:#aa8a00">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #000; color:#aa8a00; text-align: left;"><div><span>SEO</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #aa8a00; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#aa8a00">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(103)"><div id="103">
+                      <script>
+                        var key = localStorage.getItem("103");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(104)"><div id="104">
+                      <script>
+                        var key = localStorage.getItem("104");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#aa8a00">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(105)"><div id="105">
+                      <script>
+                        var key = localStorage.getItem("105");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(106)"><div id="106">
+                      <script>
+                        var key = localStorage.getItem("106");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #000; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#aa8a00">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(107)"><div id="107">
+                      <script>
+                        var key = localStorage.getItem("107");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(108)"><div id="108">
+                      <script>
+                        var key = localStorage.getItem("108");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="hunters" style="display:none;">
+              <table class="table_5" style="border:2px solid #ffa000;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">청두 헌터즈</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #b4926a; text-align: center;"><div>
+                      <span style="color:#000">Chengdu Hunters (成都猎人队)</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2018년 9월 6일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>중국 쓰촨성 청두시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>동부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">홈 경기장</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>우량예 청두 공연 예술 센터</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><span style="color:#000">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #ffa000; color:#000; text-align: left;"><div><span>CDH</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #b4926a; text-align: center;"><div>
+                      <span style="color:#000">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#000">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(109)"><div id="109">
+                      <script>
+                        var key = localStorage.getItem("109");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(110)"><div id="110">
+                      <script>
+                        var key = localStorage.getItem("110");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#000">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(111)"><div id="111">
+                      <script>
+                        var key = localStorage.getItem("111");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(112)"><div id="112">
+                      <script>
+                        var key = localStorage.getItem("112");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #ffa000; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#000">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(113)"><div id="113">
+                      <script>
+                        var key = localStorage.getItem("113");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(114)"><div id="114">
+                      <script>
+                        var key = localStorage.getItem("114");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="spark" style="display:none;">
+              <table class="table_5" style="border:2px solid #fb7299;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">항저우 스파크</span></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #5788ce; text-align: center;"><div>
+                      <span style="color:#fff">New York Excelsior</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">창단</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>2017년 9월 7일</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">연고지</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>중국 저장성 항저우시</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">컨퍼런스</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>태평양 컨퍼런스</div></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">디비전</span></div></td>
+                    <td colspan="2" style="text-align: left;"><div>동부 디비전</div></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">홈 경기장</span></div></td>
+                    <td rowspan="2" colspan="2" style="text-align: left;"><div>항저우 대극장<br>우전 대극장</div></td>
+                  </tr>
+                  <tr>
+
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><span style="color:#fff">약칭</span></div></td>
+                    <td colspan="2" style="background-color: #fb7299; color:#fff; text-align: left;"><div><span>HZS</span> </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="background-color: #5788ce; text-align: center;"><div>
+                      <span style="color:#fff">로스터</span>
+                    </div> </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center; width:30%;"><div><img src="image/role_dps.png"><br><span style="color:#fff">DPS</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(115)"><div id="115">
+                      <script>
+                        var key = localStorage.getItem("115");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(116)"><div id="116">
+                      <script>
+                        var key = localStorage.getItem("116");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><img src="image/role_tank.png"><br><span style="color:#fff">TNK</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(117)"><div id="117">
+                      <script>
+                        var key = localStorage.getItem("117");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(118)"><div id="118">
+                      <script>
+                        var key = localStorage.getItem("118");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color: #fb7299; text-align: center;"><div><img src="image/role_support.png"><br><span style="color:#fff">SUP</span></div></td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(119)"><div id="119">
+                      <script>
+                        var key = localStorage.getItem("119");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                    <td style="text-align: center; width: 35%;" onclick="summit(120)"><div id="120">
+                      <script>
+                        var key = localStorage.getItem("120");
+                        if(key == null) { document.write(" ");}
+                        else { document.write(key);}
+                      </script></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </p>
+          <br>
+          <p id="form">
+            <span class="subtitle1">포맷</span><br><br>
+            정규 시즌은 각 70개의 경기로 이루어진 4개의 스테이지로 나뉩니다. 처음의 3개 스테이지를 마친 후에 스테이지 플레이오프가 펼쳐집니다.<br>
+            포스트시즌 플레이오프는 스테이지 4 후에 진행됩니다. 시즌 기간에는 각 팀의 경기 승수에 따라 순위가 정해지고, 무승부일 경우 전장 득실을 따져 우승팀을 정합니다.<br><br><br>
+            <span class="subtitle2">스테이지 플레이오프</span><br><br>
+            3회의 스테이지가 끝난 후에 해당 스테이지에서 경기 승수가 가장 많은 8개 팀이 스테이지 플레이오프 출전권을 얻고, 출전 팀은 시드를 받아 상금과 명예를 걸고 토너먼트를 펼칩니다.<br><br><br>
+            <span class="subtitle2">포스트시즌 플레이오프</span><br><br>
+            양 디비전의 우승팀과 경기 기록이 그다음으로 우수한 네 팀(디비전 무관)은 자동으로 플레이오프 출전권을 얻습니다.<br>
+            이후 7위부터 12위까지의 팀이 플레이인 토너먼트를 통해 추가로 출전권을 얻게 됩니다.<br>
+            플레이오프에 진출한 8개 팀은 리그 챔피언 자리와 5백만 달러의 총상금 중 일부를 놓고 더블 엘리미네이션 대진표에서 경쟁합니다.<br><br><br>
+          </p>
+          <p>
+            <span class="subtitle1">경기 사진</span><br><br>
+            <img id="play_img" src="image/play/league1.jpg" onclick="leaguechange(this)">
+          </p>
+          <br>
+          <p>
+            <table class="table_6">
+              <tbody>
+                <tr>
+                  <td class="td_2" onclick="leaguevideo1()"><span class="subtitle2">경기 영상1</span> <br><br> </td>
+                  <td class="td_2" onclick="leaguevideo2()"><span class="subtitle2">경기 영상2</span> <br><br> </td>
+                </tr>
+                <tr>
+                  <td><p id="video1"></p></td>
+                  <td><p id="video2"></p></td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+          <br><br><br>
+          <p>
+            <span class="site_link">&lt오버워치 리그 방송 주소&gt</span><br>
+            <a href="https://www.twitch.tv/overwatchleague_kr" target="_blank"><img src="image/twitch.png" width="100px"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

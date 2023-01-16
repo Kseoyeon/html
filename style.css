@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'koverwatch';
+  src: url(fonts/koverwatch.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundB';
+  src: url(fonts/NanumSquareRoundB.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundEB';
+  src: url(fonts/NanumSquareRoundEB.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundR';
+  src: url(fonts/NanumSquareRoundR.ttf) format('truetype');
+}
+
+* { padding: 0; margin: 0;}
+
+a { text-decoration: inherit;}
+
+#clock { text-align: center; display: block; font-size: 14px; font-family: NanumSquareRoundEB; margin-left: 85%; margin-top: 1%; background-color: #e8e4e3; border-radius: 10px; width: 160px; height: 22px; line-height: 22px;}
+
+#logo { width: 345px; height: 150px; margin: 0 auto;}
+#logo_image { display: block; height: 150px; margin: 0 auto;}
+
+#topMenu ul {display: flex; width: 80%; margin: 25px auto;}
+#topMenu ul li {flex: 1; background: #5D5D5D; border-left: 1px solid white; opacity: 0.7; list-style: none;}
+#topMenu ul li:first-child {border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-left: none;}
+#topMenu ul li:last-child {border-top-right-radius: 15px; border-bottom-right-radius: 15px;}
+#topMenu ul li a {text-decoration: none; letter-spacing: 5px; display: block; height: 50px; color: white; font-size: 18px; font-weight: bold; font-family: default; text-align: center; line-height: 50px;}
+#topMenu ul li:hover {background-color: #8C8C8C;}
+
+#trailer {width: 560px; height: 315px;}
+#main_img {width: 700px;}
+#hero {width: 800px;}
+#welcome {font-size: 60px;}
+#welcome2 {font-size: 30px;}
+.OW_Font {font-size: 50px;}
+.posi {width: 200px;}
+#present {background-color: #8C8C8C;}
+#plan {list-style-type: decimal; width: 15%; margin: 0 auto;}
+#schedule {margin-left: 43%; width: 200px;}
+#role2 {display: none;}
+
+.wrapper { z-index: 1;}
+.wrapper:before{
+  content: "";
+	z-index:-1;
+	position:absolute;
+	top:0;
+	left:0;
+  bottom: 0;
+  right: 0;
+	background-image: url('image/back.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 5500px;
+	opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+#contents {
+  width: 83%;
+  height: 5000px;
+  margin: 100px 0 0 0;
+  padding: 50px 8% 0;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  font-family: NanumSquareRoundB, Dotum, Arial;
+}
+
+#back { z-index: 1;}
+
+#back:before {
+  background-color: white;
+  margin: 300px 0 0 0;
+  content: "";
+	z-index: -1;
+	position:absolute;
+	top:0;
+	left:0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 5000px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+#overwatch {
+  display: block;
+  width: 80%;
+  height: 2750px;
+  margin: 50px auto;
+  padding: 50px 130px;
+  text-align: center;
+  font-family: NanumSquareRoundB, Dotum, Arial;
+}
+
+.overwatch_font { font-family: koverwatch;}
+
+.table_1 {
+  font-family: NanumSquareRoundB;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 99%;
+  border-spacing: 30px;
+  border-collapse: separate;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.td_1 { width: 33%;}
+
+.table_2 {
+  font-family: NanumSquareRoundB;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  border-spacing: 30px;
+  border-collapse: separate;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.td_2 { width: 50%;}
+.play_VOD {width: 448px; height: 252px;}
+
+.table_3 {
+  font-family: NanumSquareRoundB;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 84%;
+  border-spacing: 18px;
+  border-collapse: separate;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.td_3 { width: 12%;}
+
+.table_4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.td_4 { width: 15%;}
+
+table.table_5 td {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+.table_5 {
+  font-size: 18px;
+  line-height: 25px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.table_6 {margin-left : auto; margin-right : auto; text-align : center; width: 90%;}
+.table_mobile {
+  display: none;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  letter-spacing: normal;
+  line-height: 20px;
+}
+
+.title {
+  font-family: NanumSquareRoundEB;
+  font-size: 38px;
+  line-height: 0;
+}
+.subtitle2 {
+  font-family: NanumSquareRoundB;
+  font-size: 24px;
+}
+
+#kor {font-size: 24px;}
+
+.site_link {
+  font-family: NanumSquareRoundEB;
+  font-size: 20px;
+}
+.subtitle1 {
+  font-family: NanumSquareRoundB;
+  font-size: 30px;
+}
+
+#open_img {width: 250px;}
+#open_rule {width: 850px;}
+#mini {font-size: 14px;}
+.contenders_img {width: 450px;}
+#play_img {width: 600px;}
+.team_img {width: 200px;}
+#form {font-size: 16px;}
+
+@media (max-width: 1320px) {
+  #logo {margin: 0 486px;}
+  #topMenu ul { margin: 25px 135px;}
+  #topMenu ul li {flex:none; width: 208px;}
+  .wrapper:before { width: 1310px;}
+  #contents {width: 1100px; padding: 50px 104px;}
+  #overwatch {width: 1040px;}
+  #back:before {width: 1310px;}
+}
+
+@media (max-width: 1280px) {
+  #logo {margin: 0 474px; height: 115px;}
+  #logo_image {height: 115px;}
+  #topMenu ul { margin: 25px 130px;}
+  #topMenu ul li {flex:none; width: 205px;}
+  #topMenu ul li a {font-size: 14px; height: 37.5px; line-height: 37.5px; }
+  .wrapper:before { width: 1270px;}
+  #back:before {margin: 250px 0 0 0;}
+  #contents {width: 1075px; padding: 51px 102px;}
+  #overwatch {width: 1011px;}
+  #back:before {width: 1270px;}
+}
+
+/* @media (max-width: 720px) {
+  #clock {font-size: 6px; margin-left: 70%; margin-top: 1%; background-color: #e8e4e3; width: 100px; height: 14px; line-height: 14px;}
+  #logo {margin: 0 auto; height: 65px;}
+  #logo_image {height: 65px;}
+  #topMenu {width: 710px;}
+  #topMenu ul { margin: 25px 0px;}
+  #topMenu ul li {flex:none; width: 141px;}
+  #topMenu ul li:first-child {border-top-left-radius: 0px; border-bottom-left-radius: 0px; border-left: none;}
+  #topMenu ul li:last-child {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
+  #topMenu ul li a {font-size: 8px; height: 30px; line-height: 30px;}
+  #main_img {width: 500px;}
+  #hero {width: 400px;}
+  #schedule {margin-left: 35%; width: 200px;}
+  .posi {width: 50px;}
+  .wrapper:before { width: 710px;}
+  #back:before {margin: 160px 0 0 0;}
+  #contents {width: 604px; padding: 29px 57px;}
+  #overwatch {width: 710px; margin: 30px 0px; padding: 30px 0px;}
+  #back:before {width: 710px;}
+} */
+
+@media (max-width: 640px) {
+  #clock {font-size: 6px; margin-left: 65%; margin-top: 1%; background-color: #e8e4e3; width: 100px; height: 14px; line-height: 12px;}
+  #logo {margin: 0 auto; width: 60%; height: auto;}
+  #logo_image {width: 60%; height: auto;}
+  #topMenu {width: 100%;}
+  #topMenu ul { margin: 25px 0px;}
+  #topMenu ul li {flex:none; width: 24.9%;}
+  #topMenu ul li:first-child {border-top-left-radius: 0px; border-bottom-left-radius: 0px; border-left: none;}
+  #topMenu ul li:last-child {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
+  #topMenu ul li a {font-size: 6px; height: 30px; line-height: 24px; letter-spacing: normal;}
+  #main_img {width: 80%;}
+  #welcome {font-size: 20px;}
+  #welcome2 {font-size: 12px; line-height: 20px;}
+  #hero {width: 80%;}
+  .OW_Font {font-size: 18px;}
+  #schedule {margin-left: 35%; width: 40%;}
+  .posi {width: 65%;}
+  .wrapper:before {width: 100%; height: 4200px;}
+  #back:before {margin: 34% 0 0 0;}
+  #contents {width: 90%; height: 4000px; margin: 10% 0 0; padding: 0 5% 0; font-size: 8px; line-height: 20px;}
+  #overwatch {width: 90%; margin: 9% 0; padding: 0 5% 9%; font-size: 8px;}
+  #back:before {width: 100%; height: 3950px;}
+  .table_1 {font-size: 18px; width: 100%; border-spacing: 20px; letter-spacing: 100%; line-height: 100%;}
+  .table_2 {font-size: 8px; width: 100%; border-spacing: 10px; letter-spacing: normal; line-height: 15px;}
+  .table_4 {width: 100%;}
+  .table_5 {font-size: 8px; line-height: 14px; width: 100%;}
+  .table_6 {width: 100%;}
+  .title {font-size: 16px; line-height: 22px;}
+  .subtitle2 {font-size: 12px;}
+  .site_link {font-size: 10px;}
+  .subtitle1 {font-size: 14px;}
+  #plan {list-style-type: decimal; width: 40%; margin: 0 auto;}
+  #trailer {width: 85%; height: 210px;}
+  #open_img {width: 45%;}
+  #open_rule {width: 100%;}
+  #mini {font-size: 8px;}
+  .contenders_img {width: 100%;}
+  #play_img {width: 100%;}
+  .play_VOD {width: 100%; height: 120px;}
+  .play_VOD2 {width: 80%; height: 230px;}
+  .team_img {width: 100%;}
+  #worldcup_img {width: 100%;}
+  .table_3 {display: none;}
+  .table_mobile {display: block;}
+  #role {font-size: 8px;}
+  #role1 {display: none;}
+  #role2 {display: block;}
+  #form {font-size: 8px;}
+  #kor {font-size: 12px;}
+}
